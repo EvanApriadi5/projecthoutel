@@ -1,0 +1,260 @@
+/* css external */
+@media (min-width: 992px) {
+.bagian1 h1 {
+  /* mengubah warna */
+  color: rgb(0, 26, 255);
+  /* mengubah font */
+  font-family: "Poppins";
+  /* mengubah background */
+  background-color: black;
+  /* mengubah ketebalan */
+  font-weight: bold;
+}
+
+.bagian1 img {
+  width: 500px;
+  height: 500px;
+  /* membuat gambar proposional */
+  object-fit: contain;
+}
+
+
+/* IKUTI TUTORIAL YOUTUBE */
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(../src/font/Poppins-Black.ttf);
+}
+
+#app {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* bagian Header comp */
+#HeaderComp .bg-header {
+  background-color: white;
+
+}
+
+#HeaderComp .navbar-brand img {
+  width: 100px;
+  height: auto;
+
+}
+ /* bagianbannercomp */
+#BannerComp {
+  color: white;
+}
+
+#BannerComp .ic_search {
+  width: 24px;
+  height: 24px;
+}
+#BannerComp .banner-konten {
+  margin-left:20px;
+  
+ }
+ 
+
+#BannerComp .pencarian {
+  margin-top: -20px;
+}
+#HotelRec .ic_star {
+  width: 25px;
+  height: 25px;
+}
+
+#HotelRec .card-text {
+  color: red;
+}
+
+
+/* bagian banner comp */
+/* bagian banner comp ccs di internal */
+ /* /* bagianiklancomp */
+  
+ #IklanComp .bg-bannerKonten {
+  width:100%;
+  
+  height:auto;
+  border-radius: 20px;
+}
+
+/* bagian tagline */
+
+#TagLine .batasAtas {
+  margin-top: 125px;
+  margin-left: 100px;
+}
+
+#TagLine .bebek {
+  width: 100%;
+  height: auto;
+}
+
+#TagLine .tulisan h3 {
+  font-weight: bold;
+  color: red;
+}
+
+#TagLine .tulisan h1 {
+  font-weight: bold;
+  color: #585858;
+}
+
+#TagLine .tulisan {
+  margin-top: 100px;
+}
+
+#TagLine .tulisan h6 {
+  font-weight: 300;
+  color: #D9D9D9;
+}
+
+#TagLine .tulisan h6 {
+  padding-right: 250px;
+}
+
+#TagLine .button a {
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#TagLine .h1 h1 {
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+#TagLine .h6 h6 {
+  margin-top: 10px;
+  font-size: 16px;
+  color:antiquewhite;
+}
+
+#TagLine .button a {
+  margin-top: 25px;
+}
+
+/* akhir tagline css */
+/* footer */
+#FooterComp .tulisan {
+  color: white;
+}
+
+#FooterComp .Sosmed img {
+  width: 24px;
+  height: auto;
+  margin-left: 30px;
+}
+
+#FooterComp .Sosmed h6 {
+  margin-left: 25px;
+}
+
+#FooterComp .Houtel p {
+  margin-top: 1px;
+  padding-right: 100px;
+}
+
+/* menu pencarianfindhotel */
+
+#FindHotel .ic_search {
+  width: 24px;
+  height: 24px;
+}
+
+#FindHotel .pencarian {
+  margin-top: 20px;
+}
+
+#FindHotel h4 {
+  color: #39A0FF;
+}
+
+
+#FindHotel .bgfind {
+  background-color: #BCDEFE;
+  width: 100%;
+  height: 68px;
+  border-radius: 15px;
+
+}
+
+#FindHotel .ic_star {
+  width: 25px;
+  height: 25px;
+}
+
+#FindHotel .card-text {
+  color: red;
+}
+/* detail comp */
+#DetailComp .img-detail {
+  width: 100%;
+  height: 383px;
+  /* membuat gambar proposional */
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+#DetailComp p {
+  color: #D9D9D9;
+}
+
+#DetailComp .ic_star {
+  width: 25px;
+  height: 25px;
+}
+
+#DetailComp .ic_wifi {
+
+  width: 25px;
+  height: 25px;
+}
+
+#DetailComp .ic_kartu {
+
+  width: 25px;
+  height: 25px;
+}
+
+#DetailComp .ic_cctv {
+
+  width: 25px;
+  height: 25px;
+}
+
+#DetailComp .ic_dapur {
+
+  width: 25px;
+  height: 25px;
+}
+
+/* akhir detail comp */
+#PemesananComp .img-detail {
+  width:auto;
+  height: 243px;
+  /* membuat gambar proposional */
+  border-radius: 20px;
+}
+
+#PemesananComp .ic_star {
+  width: 25px;
+  height: 25px;
+}
+
+
+/* //suksescomp */
+#SuksesComp .img-sukses {
+  width: 100%;
+  height: 539px;
+  object-fit: contain;
+}
+
+#SuksesComp h1 {
+  color: #39A0FF;
+  
+}
+
+}
